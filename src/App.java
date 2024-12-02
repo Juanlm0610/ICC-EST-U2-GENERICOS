@@ -51,7 +51,8 @@ public class App {
 
         Par<Integer, String>[] parMenores = new Par[10];
         Par<String, Integer>[] parMayores = new Par[10];
-        int cont1 = 0, cont2 = 0;
+        int cont1 = 0;
+        int cont2 = 0;
 
         for (Persona p : personas) {
             Par<Integer, String> parMenor = new Par<>();
